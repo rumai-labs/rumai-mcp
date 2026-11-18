@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "rumai": {
+      "type": "streamable-http",
+      "url": "https://api.rumai.farm/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    }
+  }
+}
