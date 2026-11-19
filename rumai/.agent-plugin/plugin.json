@@ -19,7 +19,10 @@
         "privacyPolicyURL": "https://rumai.farm/privacy",
         "termsOfServiceURL": "https://rumai.farm/terms",
         "logo": "./assets/logo.png",
-        "composerIcon": "./assets/icon.png"
+        "composerIcon": "./assets/icon.png",
+        "capabilities": [
+          "Read"
+        ]
       },
       "review": {
         "test_cases": {
@@ -77,5 +80,23 @@
         "release_notes": "Initial release: nine read-only tools for the farms the person belongs to (who_am_i, farm_summary, herd_list, animal_detail, record_history, reproductive_state, open_alerts, reproductive_summary, farm_query)."
       }
     }
-  }
+  },
+  "interface": {
+    "displayName": "RUMAI",
+    "shortDescription": "Inteligencia reproductiva",
+    "longDescription": "RUMAI es inteligencia reproductiva para el ganado: predice el celo, avisa cuando el ciclo de un animal se desvía y recomienda cuándo intervenir. Con esta aplicación, tu asistente consulta en solo lectura tus fincas de RUMAI: el resumen de una finca, la lista de animales, la ficha de cada animal, su historial de registros, las alertas abiertas, el estado reproductivo y el conteo de servicios, revisiones de preñez y partos por toro. RUMAI no diagnostica enfermedades ni da indicaciones de tratamiento: las alertas son señales que salen de los registros de la finca. Solo ves las fincas a las que perteneces.",
+    "developerName": "RUMAI",
+    "category": "Productivity",
+    "websiteURL": "https://rumai.farm",
+    "supportURL": "https://rumai.farm/support",
+    "privacyPolicyURL": "https://rumai.farm/privacy",
+    "termsOfServiceURL": "https://rumai.farm/terms",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/icon.png",
+    "capabilities": [
+      "Read"
+    ]
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
 }
