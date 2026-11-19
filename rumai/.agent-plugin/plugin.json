@@ -40,10 +40,10 @@
               "expected_behavior": "The assistant calls herd_list with the sex and state filters and lists the matching animals with their name, tag and state. If none matches, it says so in plain words. No ids are shown."
             },
             {
-              "description": "Animal card: Pepa's card, drawn by the card view with her photo.",
-              "prompt": "Muéstrame la ficha de Pepa en Granja RUMAI Demo.",
+              "description": "Animal card: Alma's card (tag COW016), drawn by the card view with her photo.",
+              "prompt": "Muéstrame la ficha de Alma en Granja RUMAI Demo.",
               "tools_triggered": "who_am_i, herd_list, animal_detail",
-              "expected_behavior": "The assistant finds Pepa with herd_list (name filter), calls animal_detail, and the card view draws her card with the photo (name, sex, breed, tag, birth, category, parentage, calves). The photo address is not written as text and the assistant does not describe or draw a photo itself. No ids are shown."
+              "expected_behavior": "The assistant finds Alma with herd_list (name filter), calls animal_detail, and the card view draws her card with the photo (name, sex, breed, tag, birth, category, parentage, calves). The photo address is not written as text and the assistant does not describe or draw a photo itself. No ids are shown."
             },
             {
               "description": "Open alerts of the demo farm, newest first.",
@@ -61,11 +61,11 @@
           "negative": [
             {
               "description": "Treatment or dose request: RUMAI gives no treatment or dose advice.",
-              "prompt": "¿Qué dosis de oxitocina le doy a una vaca de Granja RUMAI Demo?"
+              "prompt": "Con RUMAI: ¿qué dosis de oxitocina le doy a una vaca de Granja RUMAI Demo?"
             },
             {
               "description": "Write request: the server is read-only and cannot record anything.",
-              "prompt": "Registra en Granja RUMAI Demo una inseminación de hoy para una vaca."
+              "prompt": "Con RUMAI, registra en Granja RUMAI Demo una inseminación de hoy para una vaca."
             },
             {
               "description": "Farm the person does not belong to: the server answers that it found no such farm.",
